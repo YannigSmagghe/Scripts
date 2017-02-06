@@ -17,6 +17,9 @@ echo"----------------------------php--------------------------------------";
 echo"---------------------------------------------------------------------";
 sudo apt-get -y install php5 php5-mysql;
 
+echo"---------------------------------------------------------------------";
+echo"---------------Vagrant et Virtualbox---------------------------------";
+echo"---------------------------------------------------------------------";
 sudo apt-get -y install vagrant
 sudo cp InstallPackage/sources.list /etc/apt/
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
