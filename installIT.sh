@@ -22,10 +22,19 @@ echo"----------------------------git--------------------------------------";
 echo"---------------------------------------------------------------------";
 sudo apt-get -y install git;
 
+
+sudo apt-get -y install vagrant
+sudo dpkg -i '/home/apprenant/Ip-data/logiciels/Virtualization/virtualbox-5.1_5.1.6-110634-Debian-jessie_amd64.deb'
+
+mkdir vagrantBox;
+(cd vagrantBox/;cp vragrant file)
+
+
+
 echo"---------------------------------------------------------------------";
 echo"-----------------------Oh my Zsh-------------------------------------";
 echo"---------------------------------------------------------------------";
-sudo apt-get install zsh
+sudo apt-get -y install zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 echo" Ton thème : pygmalion";
 sudo nano ~/.zshrc
@@ -33,7 +42,7 @@ sudo nano ~/.zshrc
 echo"---------------------------------------------------------------------";
 echo"-----------------------Sublime Text----------------------------------";
 echo"---------------------------------------------------------------------";
-sudo apt-get install sublime-text
+sudo apt-get -y install sublime-text
 
 echo"---------------------------------------------------------------------";
 echo"-----------------------Slack-----------------------------------------";
@@ -45,7 +54,7 @@ echo"---------------------------------------------------------------------";
 echo"-----------------------Php Storm-------------------------------------";
 echo"---------------------------------------------------------------------";
 tar -xvf /home/apprenant/Ip-data/logiciels/IDE/PhpStorm-2016.2.1.tar.gz
-sudo sh  PhpStorm-162.1889.1/bin/phpstorm.sh
+sudo sh PhpStorm-162.1889.1/bin/phpstorm.sh
 
 echo"---------------------------------------------------------------------";
 echo"-----------------------Php Storm-------------------------------------";
